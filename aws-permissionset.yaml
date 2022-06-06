@@ -291,22 +291,22 @@ Resources:
         				"workmailmessageflow:GetRawMessageContent",
         				"workspaces:ListAvailableManagementCidrRanges",
         				"xray:ListTagsForResource"
-        			],
-        			"Resource": "*"
-        		},
-        		{
-        			"Effect": "Deny",
-        			"Action": [
-        				"aws-portal:*",
-        				"billing:*",
-        				"budgets:*",
-        				"ce:*",
-        				"cur:*",
-        				"purchase-orders:*"
-        			],
-        			"Resource": "*"
-        		}
-        	]
+              ],
+              "Resource": "*"
+            },
+            {
+              "Effect": "Deny",
+              "Action": [
+                "aws-portal:*",
+                "billing:*",
+                "budgets:*",
+                "ce:*",
+                "cur:*",
+                "purchase-orders:*"
+              ],
+              "Resource": "*"
+            }
+          ]
         }
       InstanceArn: !Ref SSOInstanceArn
       Name: 'AWS-PermissionSet'
