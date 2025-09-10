@@ -1,20 +1,8 @@
-# azure-pipelines.yml
 trigger:
-  - main  # Runs when code is pushed to the 'main' branch
+  - main
 
 pool:
-  name: Default  # Use your self-hosted agent pool name
-
+  name: Default  # or your custom agent pool name
 steps:
-  - script: echo "Hello, DevOps!"
-    displayName: 'Run a simple script'
-
-  - script: |
-      echo "Simulating a build step..."
-      echo "Build complete!"
-    displayName: 'Build Step'
-
-  - script: |
-      echo "Running tests..."
-      echo "All tests passed!"
-    displayName: 'Test Step'
+  - script: echo "Hello from your local agent!"
+    displayName: "Test Agent Connection"
