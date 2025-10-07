@@ -1,8 +1,0 @@
-trigger:
-  - main
-
-pool:
-  name: Default  # or your custom agent pool name
-steps:
-  - script: echo "Hello from your local agent!"
-    displayName: "Test Agent Connection"
