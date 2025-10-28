@@ -1,0 +1,49 @@
+Privacy Policy for Weather Action (Caribbean Princess GPT)
+
+Effective Date: October 2025
+Owner: Kelly Gareau
+
+1. Purpose
+
+This page explains how the Weather Action used by the Caribbean Princess GPT handles data when providing weather forecasts for cruise ports and locations.
+
+2. What Information Is Collected
+
+When you request weather information, the Action sends a simple API call that includes:
+
+The geographic coordinates (latitude and longitude) or the name of a location you ask about.
+
+No personal information, identifiers, or chat history are sent.
+
+3. How the Information Is Used
+
+The coordinates or location name are used only to retrieve current or forecasted weather data from the external weather service Open-Meteo.
+The returned information may include temperature, wind, humidity, precipitation, and other weather metrics.
+This data is displayed in your chat and is not stored by the GPT.
+
+4. Data Sharing
+
+Your query is transmitted securely over HTTPS to Open-Meteo (https://open-meteo.com).
+No data is shared with any other third party.
+The Action does not log, analyze, or reuse your queries for analytics or marketing.
+
+5. Data Retention
+
+The Weather Action does not retain or store any location data.
+All data is processed in real time and discarded immediately after the response is returned.
+No user profiles, cookies, or logs are kept.
+
+6. Security
+
+All communication between the GPT and Open-Meteo’s servers uses encrypted HTTPS requests.
+No additional tracking or telemetry is implemented.
+
+7. User Control
+
+If you do not wish to share a location, simply avoid requesting weather information.
+The GPT will not send any data until a location or port name is provided.
+
+8. Changes to This Policy
+
+Updates to this Privacy Policy will be posted on this page with a new effective date.
+Significant changes will be noted in the GPT’s description.
